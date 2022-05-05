@@ -213,8 +213,10 @@ class menu:
 			print(' %s[%s!%s] Jangan kosong anj'%(N,M,N));time.sleep(2);menu().main()
 		elif usna in ['1','01']:
 			def publik(kontol):
+   # dump id dari teman hehe
+def teman(kontol):
     try:
-        os.mkdir('dump')
+      os.mkdir('dump')
     except:pass
     try:
         csy = raw_input('\n %s[%s?%s] id publik  : '%(N,O,N))
